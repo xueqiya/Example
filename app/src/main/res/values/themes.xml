@@ -1,0 +1,38 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary</item>
+    </style>
+
+    <!-- Customize your theme here. -->
+    <style name="Theme.Common" parent="Theme.Base">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimationStyle</item>
+        <item name="android:windowBackground">@color/color_background</item>
+
+        <!--widget-->
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="materialButtonStyle">@style/ButtonStyle</item>
+        <item name="styleLoadingLayout">@style/LoadingLayoutStyle</item>
+
+        <!--dialog-->
+        <item name="md_color_button_text">@color/color_accent</item>
+        <item name="md_color_title">@color/color_text_primary</item>
+        <item name="md_color_content">@color/color_text_secondary</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.Common">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <!--Activity进出场动画-->
+    <style name="ActivityAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>
