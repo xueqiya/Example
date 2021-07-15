@@ -7,7 +7,7 @@ import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.blankj.utilcode.util.BarUtils
-import com.xueqiya.example.ui.MainActivity
+import com.xueqiya.example.ui.main.MainActivity
 import com.xueqiya.example.R
 
 class SplashActivity : AppCompatActivity() {

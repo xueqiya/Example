@@ -9,7 +9,9 @@ import androidx.viewbinding.ViewBinding
 import com.xueqiya.example.base.BaseFragment
 import com.xueqiya.example.databinding.FragmentDashboardBinding
 import com.hi.dhl.binding.viewbind
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DashboardFragment : BaseFragment() {
     private lateinit var viewModel: DashboardViewModel
     private val binding: FragmentDashboardBinding by viewbind()

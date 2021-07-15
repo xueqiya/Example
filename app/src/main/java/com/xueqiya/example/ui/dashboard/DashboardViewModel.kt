@@ -5,7 +5,6 @@ import androidx.lifecycle.MutableLiveData
 import com.xueqiya.example.base.BaseViewModel
 
 class DashboardViewModel : BaseViewModel() {
-
     private val _text = MutableLiveData<String>().apply {
         value = "This is dashboard Fragment"
     }
