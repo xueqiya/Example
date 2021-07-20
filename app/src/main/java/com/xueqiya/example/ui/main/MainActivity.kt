@@ -30,9 +30,9 @@ class MainActivity : BaseActivity() {
 
     override fun onBackPressed() {
 //        super.onBackPressed()
-        if (navController.currentDestination?.id == R.id.navigation_home ||
-            navController.currentDestination?.id == R.id.navigation_dashboard ||
-            navController.currentDestination?.id == R.id.navigation_notifications
+        if (navController.currentDestination?.id == R.id.home ||
+            navController.currentDestination?.id == R.id.dashboard ||
+            navController.currentDestination?.id == R.id.notifications
         ) {
             moveTaskToBack(false)
         } else {
@@ -42,9 +42,9 @@ class MainActivity : BaseActivity() {
 
     private val destinationChangedListener = NavController.OnDestinationChangedListener { _, destination, _ ->
         when (destination.id) {
-            R.id.navigation_home ,
-            R.id.navigation_dashboard ,
-            R.id.navigation_notifications -> {
+            R.id.home ,
+            R.id.dashboard ,
+            R.id.notifications -> {
                 showOtherView(binding.navView)
             }
             else -> hideOtherView(binding.navView)

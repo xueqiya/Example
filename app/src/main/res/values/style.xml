@@ -1,38 +1,36 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryVariant">@color/color_primary</item>
-    </style>
+<resources>
 
-    <!-- Customize your theme here. -->
-    <style name="Theme.Common" parent="Theme.Base">
+    <style name="BaseTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:screenOrientation">portrait</item>
         <item name="android:windowAnimationStyle">@style/ActivityAnimationStyle</item>
         <item name="android:windowBackground">@color/color_background</item>
+    </style>
 
+    <style name="CommonTheme" parent="BaseTheme">
         <!--widget-->
         <item name="android:textViewStyle">@style/TextViewStyle</item>
         <item name="editTextStyle">@style/EditTextStyle</item>
-        <item name="materialButtonStyle">@style/ButtonStyle</item>
         <item name="styleLoadingLayout">@style/LoadingLayoutStyle</item>
 
         <!--dialog-->
-        <item name="md_color_button_text">@color/color_accent</item>
+        <item name="md_color_button_text">?attr/colorPrimary</item>
         <item name="md_color_title">@color/color_text_primary</item>
         <item name="md_color_content">@color/color_text_secondary</item>
     </style>
 
-    <style name="Theme.Splash" parent="Theme.Common">
+    <style name="SplashTheme" parent="CommonTheme">
         <item name="android:windowBackground">@drawable/splash</item>
     </style>
 
-    <!--Activity进出场动画-->
+    <!--Activity进场。出场动画-->
     <style name="ActivityAnimationStyle" parent="@android:style/Animation.Activity">
+        <!--用于设置打开新的Activity并进入新的Activity展示的动画-->
         <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <!--用于设置打开新的Activity并销毁之前的Activity展示的动画-->
         <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <!--用于设置关闭当前Activity进入上一个Activity展示的动画-->
         <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <!--用于设置关闭当前Activity时展示的动画-->
         <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
     </style>
 </resources>

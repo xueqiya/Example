@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--blue-->
+    <color name="colorBluePrimary">#2196F3</color>
+    <color name="colorBluePrimaryDark">#1976D2</color>
+    <color name="colorBlueAccent">#2196F3</color>
+    <!--red-->
+    <color name="colorRedPrimary">#F44336</color>
+    <color name="colorRedPrimaryDark">#D32F2F</color>
+    <color name="colorRedAccent">#F44336</color>
+    <!--brown-->
+    <color name="colorBrownPrimary">#795548</color>
+    <color name="colorBrownPrimaryDark">#5D4037</color>
+    <color name="colorBrownAccent">#795548</color>
+    <!--green-->
+    <color name="colorGreenPrimary">#31C37C</color>
+    <color name="colorGreenPrimaryDark">#2AA96B</color>
+    <color name="colorGreenAccent">#31C37C</color>
+    <!--purple-->
+    <color name="colorPurplePrimary">#9c27b0</color>
+    <color name="colorPurplePrimaryDark">#7B1FA2</color>
+    <color name="colorPurpleAccent">#9c27b0</color>
+    <!--teal-->
+    <color name="colorTealPrimary">#009688</color>
+    <color name="colorTealPrimaryDark">#00796b</color>
+    <color name="colorTealAccent">#009688</color>
+    <!--pink-->
+    <color name="colorPinkPrimary">#E91E63</color>
+    <color name="colorPinkAccent">#E91E63</color>
+    <color name="colorPinkPrimaryDark">#E91E63</color>
+    <!--deepPurple-->
+    <color name="colorDeepPurplePrimary">#673AB7</color>
+    <color name="colorDeepPurplePrimaryDark">#512DA8</color>
+    <color name="colorDeepPurpleAccent">#673AB7</color>
+    <!--orange-->
+    <color name="colorOrangePrimary">#FF9800</color>
+    <color name="colorOrangePrimaryDark">#F57C00</color>
+    <color name="colorOrangeAccent">#FF9800</color>
+    <!--indigo-->
+    <color name="colorIndigoPrimary">#3F51B5</color>
+    <color name="colorIndigoPrimaryDark">#303F9F</color>
+    <color name="colorIndigoAccent">#3F51B5</color>
+    <!--cyan-->
+    <color name="colorCyanPrimary">#00BCD4</color>
+    <color name="colorCyanPrimaryDark">#0097A7</color>
+    <color name="colorCyanAccent">#00BCD4</color>
+    <!--lightGreen-->
+    <color name="colorLightGreenPrimary">#8BC34A</color>
+    <color name="colorLightGreenPrimaryDark">#689F38</color>
+    <color name="colorLightGreenAccent">#8BC34A</color>
+    <!--lime-->
+    <color name="colorLimePrimary">#CDDC39</color>
+    <color name="colorLimePrimaryDark">#AFB42B</color>
+    <color name="colorLimeAccent">#CDDC39</color>
+    <!--deepOrange-->
+    <color name="colorDeepOrangePrimary">#FF5722</color>
+    <color name="colorDeepOrangePrimaryDark">#E64A19</color>
+    <color name="colorDeepOrangeAccent">#FF5722</color>
+    <!--blueGrey-->
+    <color name="colorBlueGreyPrimary">#607D8B</color>
+    <color name="colorBlueGreyPrimaryDark">#455A64</color>
+    <color name="colorBlueGreyAccent">#607D8B</color>
+    <!--White-->
+    <color name="colorWhitePrimary">#EDEDED</color>
+    <color name="colorWhitePrimaryDark">#EDEDED</color>
+    <color name="colorWhitePrimaryAccent">#0B73F6</color>
+    <!--Blank-->
+    <color name="colorBlankPrimary">#000000</color>
+    <color name="colorBlankPrimaryDark">#000000</color>
+    <color name="colorBlankPrimaryAccent">#616161</color>
+</resources>

@@ -9,6 +9,7 @@ import androidx.viewbinding.ViewBinding
 import com.xueqiya.example.base.BaseFragment
 import com.xueqiya.example.databinding.FragmentNotificationsBinding
 import com.hi.dhl.binding.viewbind
+import com.xueqiya.example.utils.ext.initToolBar
 
 class NotificationsFragment : BaseFragment() {
     private lateinit var viewModel: NotificationsViewModel
@@ -20,7 +21,7 @@ class NotificationsFragment : BaseFragment() {
 
     override fun initView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): ViewBinding? {
         return binding.apply {
-
+            toolbar.toolbar.initToolBar("Notifications")
         }
     }
 

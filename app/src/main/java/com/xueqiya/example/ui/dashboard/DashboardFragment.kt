@@ -9,6 +9,7 @@ import androidx.viewbinding.ViewBinding
 import com.xueqiya.example.base.BaseFragment
 import com.xueqiya.example.databinding.FragmentDashboardBinding
 import com.hi.dhl.binding.viewbind
+import com.xueqiya.example.utils.ext.initToolBar
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -22,7 +23,7 @@ class DashboardFragment : BaseFragment() {
 
     override fun initView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): ViewBinding {
         return binding.apply {
-
+            toolbar.toolbar.initToolBar("Dashboard")
         }
     }
 

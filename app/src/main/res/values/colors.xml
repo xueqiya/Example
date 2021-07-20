@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#FF3700B3</color>
-    <color name="color_primary_night">#FF3700B3</color>
-
-    <color name="color_accent">#FF03DAC5</color>
-    <color name="color_accent_night">#FF03DAC5</color>
-
     <color name="color_background">#EDEDED</color>
-    <color name="color_background_night">#171719</color>
-
     <color name="color_foreground">#FFFFFF</color>
-    <color name="color_foreground_night">#202022</color>
-
     <color name="color_text_primary">#171719</color>
-    <color name="color_text_primary_night">#CCFFFFFF</color>
-
     <color name="color_text_secondary">#171719</color>
-    <color name="color_text_secondary_night">#CCFFFFFF</color>
-
     <color name="color_hint">#99000000</color>
-    <color name="color_hint_night">#99FFFFFF</color>
 
     <color name="transparent">#00000000</color>
     <color name="black">#FF000000</color>

@@ -10,7 +10,7 @@ import androidx.viewbinding.ViewBinding
 import com.hi.dhl.binding.viewbind
 import com.xueqiya.example.base.BaseFragment
 import com.xueqiya.example.databinding.FragmentDetailBinding
-import com.xueqiya.example.utils.ext.initToolBar
+import com.xueqiya.example.utils.ext.initToolBarBack
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -31,7 +31,7 @@ class DetailFragment : BaseFragment() {
 
     override fun initView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): ViewBinding {
         return binding.apply {
-            toolbar.toolbar.initToolBar("Detail")
+            toolbar.toolbar.initToolBarBack("Detail")
         }
     }
 

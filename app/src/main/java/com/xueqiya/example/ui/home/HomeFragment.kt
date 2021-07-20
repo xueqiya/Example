@@ -28,7 +28,7 @@ class HomeFragment : BaseFragment() {
             toolbar.toolbar.initToolBar("Home")
             image.setOnClickListener {
                 val extras = FragmentNavigatorExtras(image to "image")
-                findNavController().navigate(R.id.action_home_to_detail,null,null,extras)
+                findNavController().navigate(R.id.action_to_detail, null, null, extras)
             }
         }
     }

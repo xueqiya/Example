@@ -1,21 +1,20 @@
 package com.xueqiya.example.base
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import com.xueqiya.example.R
 import com.xueqiya.example.dialog.LoadingDialog
-import com.blankj.utilcode.util.BarUtils
 import com.blankj.utilcode.util.ColorUtils
 import com.jaeger.library.StatusBarUtil
+import com.xueqiya.example.utils.theme.Theme
+import com.xueqiya.example.utils.theme.ThemeUtils
 
 abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        setBar()
+        val theme = ThemeUtils.getTheme()
+        setTheme(theme)
+        setBar(theme)
         super.onCreate(savedInstanceState)
         initData()
         initView()
@@ -23,8 +22,12 @@ abstract class BaseActivity : AppCompatActivity() {
         getData()
     }
 
-    private fun setBar() {
-        StatusBarUtil.setColorNoTranslucent(this, ColorUtils.getColor(R.color.white))
+    private fun setTheme(theme: Theme) {
+        setTheme(theme.theme)
+    }
+
+    private fun setBar(theme: Theme) {
+        StatusBarUtil.setColorNoTranslucent(this, ColorUtils.getColor(theme.colorRes))
     }
 
     private var dialog: LoadingDialog? = null

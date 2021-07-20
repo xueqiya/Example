@@ -14,6 +14,7 @@
         android:id="@+id/image"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:contentDescription="@null"
         android:src="@mipmap/ic_launcher"
         android:transitionName="image" />
 </androidx.appcompat.widget.LinearLayoutCompat>

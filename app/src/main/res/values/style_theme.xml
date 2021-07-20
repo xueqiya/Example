@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--blueTheme-->
+    <style name="BlueTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorBluePrimary</item>
+        <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
+        <item name="colorAccent">@color/colorBlueAccent</item>
+    </style>
+    <!--redTheme-->
+    <style name="RedTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorRedPrimary</item>
+        <item name="colorPrimaryDark">@color/colorRedPrimaryDark</item>
+        <item name="colorAccent">@color/colorRedAccent</item>
+    </style>
+    <!--brownTheme-->
+    <style name="BrownTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorBrownPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBrownPrimaryDark</item>
+        <item name="colorAccent">@color/colorBrownAccent</item>
+    </style>
+    <!--greenTheme-->
+    <style name="GreenTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorGreenPrimary</item>
+        <item name="colorPrimaryDark">@color/colorGreenPrimaryDark</item>
+        <item name="colorAccent">@color/colorGreenAccent</item>
+    </style>
+    <!--purpleTheme-->
+    <style name="PurpleTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorPurplePrimary</item>
+        <item name="colorPrimaryDark">@color/colorPurplePrimaryDark</item>
+        <item name="colorAccent">@color/colorPurpleAccent</item>
+    </style>
+    <!--tealTheme-->
+    <style name="TealTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorTealPrimary</item>
+        <item name="colorPrimaryDark">@color/colorTealPrimaryDark</item>
+        <item name="colorAccent">@color/colorTealAccent</item>
+    </style>
+    <!--pinkTheme-->
+    <style name="PinkTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorPinkPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPinkPrimaryDark</item>
+        <item name="colorAccent">@color/colorPinkAccent</item>
+    </style>
+    <!--deepPurpleTheme-->
+    <style name="DeepPurpleTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorDeepPurplePrimary</item>
+        <item name="colorPrimaryDark">@color/colorDeepPurplePrimaryDark</item>
+        <item name="colorAccent">@color/colorDeepPurpleAccent</item>
+    </style>
+    <!--orange-->
+    <style name="OrangeTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorOrangePrimary</item>
+        <item name="colorPrimaryDark">@color/colorOrangePrimaryDark</item>
+        <item name="colorAccent">@color/colorOrangeAccent</item>
+    </style>
+    <!--indigo-->
+    <style name="IndigoTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorIndigoPrimary</item>
+        <item name="colorPrimaryDark">@color/colorIndigoPrimaryDark</item>
+        <item name="colorAccent">@color/colorIndigoAccent</item>
+    </style>
+    <!--cyan-->
+    <style name="CyanTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorCyanPrimary</item>
+        <item name="colorPrimaryDark">@color/colorCyanPrimaryDark</item>
+        <item name="colorAccent">@color/colorCyanAccent</item>
+    </style>
+    <!--lightGreen-->
+    <style name="LightGreenTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorLightGreenPrimary</item>
+        <item name="colorPrimaryDark">@color/colorLightGreenPrimaryDark</item>
+        <item name="colorAccent">@color/colorLightGreenAccent</item>
+    </style>
+    <!--lime-->
+    <style name="LimeTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorLimePrimary</item>
+        <item name="colorPrimaryDark">@color/colorLimePrimaryDark</item>
+        <item name="colorAccent">@color/colorLimeAccent</item>
+    </style>
+    <!--deepOrange-->
+    <style name="DeepOrangeTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorDeepOrangePrimary</item>
+        <item name="colorPrimaryDark">@color/colorDeepOrangePrimaryDark</item>
+        <item name="colorAccent">@color/colorDeepOrangeAccent</item>
+    </style>
+    <!--blueGrey-->
+    <style name="BlueGreyTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorBlueGreyPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBlueGreyPrimaryDark</item>
+        <item name="colorAccent">@color/colorBlueGreyAccent</item>
+    </style>
+    <!--blank-->
+    <style name="BlankTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorBlankPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBlankPrimaryDark</item>
+        <item name="colorAccent">@color/colorBlankPrimaryAccent</item>
+    </style>
+    <!--while-->
+    <style name="WhiteTheme" parent="CommonTheme">
+        <item name="colorPrimary">@color/colorWhitePrimary</item>
+        <item name="colorPrimaryDark">@color/colorWhitePrimaryAccent</item>
+        <item name="colorAccent">@color/colorWhitePrimaryDark</item>
+    </style>
+</resources>
