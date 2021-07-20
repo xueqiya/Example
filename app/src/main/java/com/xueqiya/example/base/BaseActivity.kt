@@ -9,12 +9,13 @@ import androidx.core.content.ContextCompat
 import com.xueqiya.example.R
 import com.xueqiya.example.dialog.LoadingDialog
 import com.blankj.utilcode.util.BarUtils
+import com.blankj.utilcode.util.ColorUtils
+import com.jaeger.library.StatusBarUtil
 
 abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         setBar()
-        setRootViewPadding()
         super.onCreate(savedInstanceState)
         initData()
         initView()
@@ -23,18 +24,7 @@ abstract class BaseActivity : AppCompatActivity() {
     }
 
     private fun setBar() {
-        BarUtils.setStatusBarColor(window, ContextCompat.getColor(this, R.color.white))
-        BarUtils.setStatusBarLightMode(window, true)
-        BarUtils.setNavBarLightMode(window, true)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            BarUtils.setNavBarColor(window, ContextCompat.getColor(this, R.color.black))
-        }
-    }
-
-    private fun setRootViewPadding() {
-        val contentView = findViewById<ViewGroup>(android.R.id.content)
-        val statusBarHeight: Int = BarUtils.getStatusBarHeight()
-        contentView.setPadding(0, statusBarHeight, 0, 0)
+        StatusBarUtil.setColorNoTranslucent(this, ColorUtils.getColor(R.color.white))
     }
 
     private var dialog: LoadingDialog? = null
