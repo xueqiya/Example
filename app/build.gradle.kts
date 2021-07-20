@@ -159,7 +159,7 @@ dependencies {
 }
 
 fun getDateTimeFormat(): String {
-    val simpleDateFormat = SimpleDateFormat("yyyyMMdd", Locale.US)
+    val simpleDateFormat = SimpleDateFormat("yyyyMMdd", Locale.CHINA)
     return simpleDateFormat.format(Date())
 }
 
