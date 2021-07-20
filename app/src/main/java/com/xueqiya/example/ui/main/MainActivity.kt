@@ -42,12 +42,8 @@ class MainActivity : BaseActivity() {
 
     private val destinationChangedListener = NavController.OnDestinationChangedListener { _, destination, _ ->
         when (destination.id) {
-            R.id.navigation_home -> {
-                showOtherView(binding.navView)
-            }
-            R.id.navigation_dashboard -> {
-                showOtherView(binding.navView)
-            }
+            R.id.navigation_home ,
+            R.id.navigation_dashboard ,
             R.id.navigation_notifications -> {
                 showOtherView(binding.navView)
             }
