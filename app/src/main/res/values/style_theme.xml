@@ -96,10 +96,4 @@
         <item name="colorPrimaryDark">@color/colorBlankPrimaryDark</item>
         <item name="colorAccent">@color/colorBlankPrimaryAccent</item>
     </style>
-    <!--while-->
-    <style name="WhiteTheme" parent="CommonTheme">
-        <item name="colorPrimary">@color/colorWhitePrimary</item>
-        <item name="colorPrimaryDark">@color/colorWhitePrimaryAccent</item>
-        <item name="colorAccent">@color/colorWhitePrimaryDark</item>
-    </style>
 </resources>

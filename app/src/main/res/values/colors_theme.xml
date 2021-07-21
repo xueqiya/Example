@@ -60,10 +60,6 @@
     <color name="colorBlueGreyPrimary">#607D8B</color>
     <color name="colorBlueGreyPrimaryDark">#455A64</color>
     <color name="colorBlueGreyAccent">#607D8B</color>
-    <!--White-->
-    <color name="colorWhitePrimary">#EDEDED</color>
-    <color name="colorWhitePrimaryDark">#EDEDED</color>
-    <color name="colorWhitePrimaryAccent">#0B73F6</color>
     <!--Blank-->
     <color name="colorBlankPrimary">#000000</color>
     <color name="colorBlankPrimaryDark">#000000</color>

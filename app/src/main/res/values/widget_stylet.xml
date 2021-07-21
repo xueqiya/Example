@@ -34,8 +34,4 @@
         <item name="android:padding">0dp</item>
         <item name="backgroundTint">?attr/colorAccent</item>
     </style>
-
-    <style name="HintTextStyle" parent="TextAppearance.AppCompat.Small">
-        <item name="android:textColor">?attr/colorPrimary</item>
-    </style>
 </resources>

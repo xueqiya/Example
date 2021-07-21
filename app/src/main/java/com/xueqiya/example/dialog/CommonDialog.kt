@@ -83,7 +83,7 @@ object CommonDialog {
         maxLength: Int,
         onClickListener: DialogClickListener
     ) {
-        val dialog = MaterialDialog(context).show {
+        MaterialDialog(context).show {
             title(text = title)
             input(
                 hint = hint,
@@ -98,8 +98,6 @@ object CommonDialog {
                 onClickListener.onClick(this, PositiveIndex, this.getInputLayout().editText!!)
             }
         }
-        val md_input_layout = dialog.getInputLayout().findViewById<TextInputLayout>(R.id.md_input_layout)
-        md_input_layout.setHintTextAppearance(R.style.HintTextStyle)
     }
 }
 

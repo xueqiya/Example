@@ -6,7 +6,7 @@
     <color name="color_text_secondary">#171719</color>
     <color name="color_hint">#99000000</color>
 
-    <color name="transparent">#00000000</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_black">#FF000000</color>
+    <color name="color_white">#FFFFFFFF</color>
 </resources>
